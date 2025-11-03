@@ -23,7 +23,13 @@ namespace INTRO
 
         private void OnClick_HelloWorld(object sender, RoutedEventArgs e)
         {
+            // statements have to be closed with ;
             MessageBox.Show("Hello World");
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("En annan MessageBox");
         }
     }
 }
