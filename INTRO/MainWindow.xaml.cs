@@ -24,12 +24,28 @@ namespace INTRO
         private void OnClick_HelloWorld(object sender, RoutedEventArgs e)
         {
             // statements have to be closed with ;
-            MessageBox.Show("Hello World");
+            // MessageBox.Show("Hello World");
+
+            if (hejknapp.Content == "hej!")
+            {
+                hejknapp.Content = "tack!!";
+            } 
+            else
+            {
+                hejknapp.Content = "hej!";
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("En annan MessageBox");
+            if (numberOfPirates.Background != Brushes.Goldenrod)
+            {
+                numberOfPirates.Background = Brushes.Goldenrod;
+            }
+            else
+            {
+                numberOfPirates.Background = Brushes.Honeydew;
+            }
         }
     }
 }

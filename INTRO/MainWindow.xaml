@@ -19,6 +19,6 @@
                 FontFamily="Algerian"
                 FontSize="48"
                 Click="OnClick_HelloWorld"/>
-        <Button Click="Button_Click" Content="Button" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="82" Width="169"/>
+        <Button x:Name="hejknapp" Click="Button_Click" Content="Button" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="82" Width="169"/>
     </Grid>
 </Window>
