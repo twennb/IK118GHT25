@@ -10,6 +10,7 @@
         <Button x:Name="btnOk"  Content="Ok" HorizontalAlignment="Left" Margin="56,83,0,0" VerticalAlignment="Top" Height="63" Width="96" Click="btnOk_Click"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Skriv ditt namn!" VerticalAlignment="Top" Width="182" Height="46"/>
         <Button Click="Button_Click"  Content="Button" HorizontalAlignment="Left" Margin="418,83,0,0" VerticalAlignment="Top"/>
-
+        <Border BorderBrush="Black" BorderThickness="1" Margin="239,239,362,111"/>
+        <Button Content=""></Button>
     </Grid>
 </Window>
