@@ -26,9 +26,10 @@ namespace INTRO
             // statements have to be closed with ;
             // MessageBox.Show("Hello World");
 
-            if (hejknapp.Content == "hej!")
+            if ((string)hejknapp.Content == "hej!")
             {
                 hejknapp.Content = "tack!!";
+                
             } 
             else
             {

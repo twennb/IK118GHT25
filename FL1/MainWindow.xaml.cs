@@ -20,5 +20,11 @@ namespace FL1
         {
             InitializeComponent();
         }
+
+        private void btnOk_Click(object sender, RoutedEventArgs e)
+        {
+            string name = $"Hej {txtName.Text}!";
+            MessageBox.Show(name);
+        }
     }
 }
